@@ -4,7 +4,7 @@ import pickle
 from discord_webhook import DiscordWebhook
 
 webhook_url = ""
-with open("secrets/webhook_url.txt", "r") as f:
+with open("/run/secrets/webhook_url", "r") as f:
     webhook_url = f.read().strip()
 
 webhook = DiscordWebhook(url = webhook_url)
