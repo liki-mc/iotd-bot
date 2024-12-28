@@ -1,0 +1,16 @@
+services:
+    iotd-bot:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: iotd-bot
+        restart: "no"
+        logging:
+            options:
+                max-size: "4096m"
+        secrets:
+          - webhook_url
+
+secrets:
+    webhook_url:
+        file: ./secrets/webhook_url.txt
