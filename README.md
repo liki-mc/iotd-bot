@@ -1,10 +1,15 @@
-# iotd-bot
+# Integral of the day bot
 
 A simple bot that posts an integral of the day to a discord channel.
 
 ## Usage
 
-1. Clone the repository
-2. Install the requirements
-3. Create a file named `webhook_url.txt` in the secrets folder and paste the webhook url of the discord webhook you want to post.
-4. Run the bot using `python main.py`
+Make a file called `webhook_url.txt` in the folder `secrets/` and paste your webhook url into it.
+
+Run `docker compose up --build` to start the bot.
+
+## Attribution
+
+The integral is chosen from [integralsforyou.com](https://inegralsforyou.com)
+
+The image posted in the discord channel is fetched from [YouTube's image hosting service](https://i.ytimg.com)
