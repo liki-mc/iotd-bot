@@ -10,6 +10,6 @@ Run `docker compose up --build` to start the bot.
 
 ## Attribution
 
-The integral is chosen from [integralsforyou.com](https://inegralsforyou.com)
+The integral is chosen from [integralsforyou.com](https://integralsforyou.com)
 
 The image posted in the discord channel is fetched from [YouTube's image hosting service](https://i.ytimg.com)
